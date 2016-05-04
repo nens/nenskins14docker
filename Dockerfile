@@ -47,7 +47,6 @@ RUN apt-get update &&\
         unzip &&\
     apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
-
 # Standard SSH port
 EXPOSE 22
 
